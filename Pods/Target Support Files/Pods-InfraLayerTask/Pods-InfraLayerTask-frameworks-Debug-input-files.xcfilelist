@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-InfraLayerTask/Pods-InfraLayerTask-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FittedSheets/FittedSheets.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
