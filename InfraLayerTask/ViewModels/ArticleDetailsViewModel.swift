@@ -28,7 +28,7 @@ class ArticleDetailsViewModel {
         }
         
         var articleImageUrl: String? {
-            return article.urlToimage ?? ""
+            return article.urlToImage ?? ""
         }
         
         var articleUrl: String? {

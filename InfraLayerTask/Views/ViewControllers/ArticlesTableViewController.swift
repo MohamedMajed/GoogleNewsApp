@@ -65,7 +65,7 @@ class ArticlesTableViewController: UITableViewController {
     func configureTableView() {
         tableView.register(cellType: ArticleTableViewCell.self)
         tableView.backgroundView?.layer.opacity = 0.7
-        tableView.separatorStyle = .none
+        tableView.separatorStyle = .singleLine
     }
 
     // MARK: - Table view data source

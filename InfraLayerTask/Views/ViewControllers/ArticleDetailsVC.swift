@@ -51,8 +51,8 @@ class ArticleDetailsVC: BottomSheetVC {
         let dateComponents = Calendar.current.dateComponents([.hour, .day, .weekOfMonth, .month], from: .now, to: articleDetailsViewModel.articlePublishedAt ?? .now)
         let formatter = RelativeDateTimeFormatter()
         let timeInterval = formatter.localizedString(from: dateComponents)
+        
         articlePublishDateLabel.text = timeInterval
-
         articleContentLabel.text = articleDetailsViewModel.article.content
         }
 }
